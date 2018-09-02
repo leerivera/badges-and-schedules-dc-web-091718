@@ -20,10 +20,10 @@ def printer(array)
   resultOne.each do |x|
     puts x 
   end
-  #loop through first array and print one by one 
+  #loops first array and prints each one
   result = assign_rooms(array)
   result.each do |x|
     puts x 
   end
-  #loop through assign_rooms array and out put those one by one 
+  #loops  assign_rooms and puts out one by one
 end
